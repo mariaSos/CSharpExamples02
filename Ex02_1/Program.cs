@@ -9,5 +9,5 @@ if (number/100 == 0 || number/100 > 9){
 }
 else
 {
-System.Console.WriteLine($"Вторая цифра от числа {number}: {number%100/10}");
+System.Console.WriteLine($"Вторая цифра от числа {number}: {number/10}");
 }
